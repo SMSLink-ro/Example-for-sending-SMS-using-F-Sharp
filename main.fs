@@ -6,6 +6,9 @@ open System.Text
 open System.IO
 open System.Net
 
+//  HTTPS API Endpoint:  https://secure.smslink.ro/sms/gateway/communicate/index.php
+//  HTTP API Endpoint:   http://www.smslink.ro/sms/gateway/communicate/index.php
+
 let url = "https://secure.smslink.ro/sms/gateway/communicate/index.php"
 
 let req = HttpWebRequest.Create(url) :?> HttpWebRequest 
